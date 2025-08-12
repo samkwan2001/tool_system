@@ -3,7 +3,7 @@ Server > Data Import > Import from Dump Project Folder
 
 
 
-find my database in `tool_system/src/tool_system_db` and copy path like `C:\Users\Sam\Downloads\tool_system\src\tool_system_db`
+find my database in `src` and copy path like `C:\Users\Sam\Downloads\tool_system\src\tool_system_db`
 
 
 
@@ -20,6 +20,9 @@ C:\Users\Sam> npm install --prefix tool_system_nodes @flowfuse/node-red-dashboar
 C:\Users\Sam> npm install mysql
 ```
 # Put files to .node-red dir (C:/Users/Sam/.node-red)
+you can find: <br>
+two files in `src` (in the img, `tool_system_node_red.json` is `tool_system_flows.json`,I will change the img later)<br>
+and `static` in main dir
 <img src="readme_data/place_files_to_node_red_dir.png" alt=""/> 
 
 # run
@@ -30,3 +33,4 @@ node-red --settings .node-red/tool_system_settings.js
 http://127.0.0.1/admin/ for node red editing
 
 http://127.0.0.1/ for user
+
