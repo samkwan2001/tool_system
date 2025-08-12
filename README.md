@@ -32,5 +32,7 @@ node-red --settings .node-red/tool_system_settings.js
 
 http://127.0.0.1/admin/ for node red editing
 
-http://127.0.0.1/ for user
+http://127.0.0.1/ for sign in
+
+http://127.0.0.1/dashboard/page1 tool system ui (if the navigation broken)
 
