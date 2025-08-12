@@ -1,5 +1,9 @@
 # Setup Database
-Server > Data Import
+Server > Data Import > Import from Dump Project Folder
+
+
+
+find my database in `tool_system/src/tool_system_db` and copy path like `C:\Users\Sam\Downloads\tool_system\src\tool_system_db`
 
 
 
@@ -15,7 +19,8 @@ C:\Users\Sam> npm install --prefix tool_system_nodes @flowfuse/node-red-dashboar
 ```shell
 C:\Users\Sam> npm install mysql
 ```
-
+# Put files to .node-red dir (C:/Users/Sam/.node-red)
+<img src="readme_data/place_files_to_node_red_dir.png" alt=""/> 
 
 # run
 ```shell
