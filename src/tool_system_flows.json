@@ -623,10 +623,7 @@
             "557a5965a550da05",
             "3d27ac3c54ad167b",
             "54a904a6a798fd86",
-            "fa37353b7a9b8b90",
-            "da32e21f6881ba1f",
-            "019d21b8c8e2b763",
-            "d49abe7f688a831f"
+            "019d21b8c8e2b763"
         ],
         "x": 608,
         "y": 1713,
@@ -1480,6 +1477,24 @@
         "h": 182
     },
     {
+        "id": "1386d17436f30564",
+        "type": "group",
+        "z": "2bcf33cf37fdb779",
+        "name": "",
+        "style": {
+            "stroke": "#7fb7df",
+            "label": true
+        },
+        "nodes": [
+            "58f3bd7f87f98b37",
+            "9afcaf96a80389ff"
+        ],
+        "x": 3214,
+        "y": 2219,
+        "w": 332,
+        "h": 142
+    },
+    {
         "id": "a886e51c28cd5f3a",
         "type": "junction",
         "z": "26e2faa37adf1942",
@@ -1925,6 +1940,82 @@
         ]
     },
     {
+        "id": "09e3dcfa3c21d8dd",
+        "type": "junction",
+        "z": "2bcf33cf37fdb779",
+        "x": 1120,
+        "y": 1560,
+        "wires": [
+            [
+                "ad4b3646a8ca02e1"
+            ]
+        ]
+    },
+    {
+        "id": "ad4b3646a8ca02e1",
+        "type": "junction",
+        "z": "2bcf33cf37fdb779",
+        "x": 1160,
+        "y": 1460,
+        "wires": [
+            [
+                "70c1a13527d72040",
+                "f172b5db591a5fd7"
+            ]
+        ]
+    },
+    {
+        "id": "9cd7091eb71ad378",
+        "type": "junction",
+        "z": "2bcf33cf37fdb779",
+        "x": 1100,
+        "y": 1360,
+        "wires": [
+            [
+                "ad4b3646a8ca02e1"
+            ]
+        ]
+    },
+    {
+        "id": "252997b7285397c5",
+        "type": "junction",
+        "z": "2bcf33cf37fdb779",
+        "x": 2920,
+        "y": 2200,
+        "wires": [
+            [
+                "7b9397e07008c4d8",
+                "161fa8d91d7f2b2d"
+            ]
+        ]
+    },
+    {
+        "id": "d4a7e1567d419d36",
+        "type": "junction",
+        "z": "67f229525f58bf4a",
+        "x": 340,
+        "y": 1160,
+        "wires": [
+            [
+                "9087a30a27e398a3"
+            ]
+        ]
+    },
+    {
+        "id": "9087a30a27e398a3",
+        "type": "junction",
+        "z": "67f229525f58bf4a",
+        "x": 380,
+        "y": 1160,
+        "wires": [
+            [
+                "47ee37c767b9a7d2",
+                "447f4b0695f88e15",
+                "1e29f399dd74c5fb"
+            ]
+        ]
+    },
+    {
         "id": "5b126ad97fd33f7b",
         "type": "ui-base",
         "name": "My Dashboard",
@@ -2022,7 +2113,8 @@
                 "default": "#0094CE",
                 "baseColor": "#0094CE",
                 "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": false
+                "edited": true,
+                "reset": false
             },
             "darkTheme": {
                 "default": "#097479",
@@ -2200,7 +2292,7 @@
         "icon": "home",
         "layout": "flex",
         "theme": "6944619436b72593",
-        "order": 2,
+        "order": 1,
         "className": "",
         "visible": false,
         "disabled": false
@@ -2269,6 +2361,131 @@
         "className": "",
         "visible": "true",
         "disabled": "false"
+    },
+    {
+        "id": "5668f0ae565b58f0",
+        "type": "mui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "m-base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "m-page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "m-page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "m-page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "m-group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "m-group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "m-group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "m-widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "m-widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "m-widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "ca8729396e0d14f0",
+        "type": "mui_link",
+        "name": "view data",
+        "link": "/ui",
+        "icon": "storage",
+        "target": "thistab",
+        "order": 2
+    },
+    {
+        "id": "24e6360281901170",
+        "type": "ui_link",
+        "name": "select tools",
+        "link": "/dashboard",
+        "icon": "open_in_browser",
+        "target": "thistab",
+        "order": 5
+    },
+    {
+        "id": "2aae5d24e9d15c39",
+        "type": "ui_group",
+        "name": "link",
+        "tab": "85f3c1cfd546c8e3",
+        "order": 3,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
     },
     {
         "id": "d183a7211378621d",
@@ -3853,7 +4070,8 @@
         "name": "update table",
         "links": [
             "64cff56e67998a34",
-            "bbb4d77509c18054"
+            "bbb4d77509c18054",
+            "36fd074bb7ffa9f8"
         ],
         "x": 105,
         "y": 540,
@@ -4435,14 +4653,10 @@
         "y": 2160,
         "wires": [
             [
-                "3b5de5bdc5ee8109",
-                "161fa8d91d7f2b2d",
-                "9afcaf96a80389ff"
+                "3b5de5bdc5ee8109"
             ],
             [
-                "ea7052c2b72dc9d1",
-                "fa37353b7a9b8b90",
-                "7b9397e07008c4d8"
+                "ea7052c2b72dc9d1"
             ]
         ]
     },
@@ -4899,8 +5113,7 @@
         "name": "link out 12",
         "mode": "link",
         "links": [
-            "a531ef662dfd2725",
-            "da32e21f6881ba1f"
+            "a531ef662dfd2725"
         ],
         "x": 2485,
         "y": 3240,
@@ -5382,7 +5595,7 @@
         "y": 1460,
         "wires": [
             [
-                "70c1a13527d72040"
+                "ad4b3646a8ca02e1"
             ]
         ]
     },
@@ -5408,7 +5621,9 @@
         "x": 710,
         "y": 1560,
         "wires": [
-            []
+            [
+                "09e3dcfa3c21d8dd"
+            ]
         ]
     },
     {
@@ -5576,6 +5791,7 @@
         "id": "9afcaf96a80389ff",
         "type": "subflow:26e2faa37adf1942",
         "z": "2bcf33cf37fdb779",
+        "g": "1386d17436f30564",
         "name": "ui",
         "env": [
             {
@@ -5589,8 +5805,8 @@
                 "type": "str"
             }
         ],
-        "x": 3290,
-        "y": 2200,
+        "x": 3310,
+        "y": 2260,
         "wires": []
     },
     {
@@ -5626,7 +5842,8 @@
         "y": 2480,
         "wires": [
             [
-                "41575b74147a7b1b"
+                "41575b74147a7b1b",
+                "252997b7285397c5"
             ]
         ]
     },
@@ -5686,8 +5903,8 @@
         "type": "subflow:04daed90325fb29f",
         "z": "2bcf33cf37fdb779",
         "name": "a",
-        "x": 3630,
-        "y": 1880,
+        "x": 3270,
+        "y": 2120,
         "wires": []
     },
     {
@@ -5728,7 +5945,10 @@
         "y": 1620,
         "wires": [
             [
-                "36fd074bb7ffa9f8"
+                "36fd074bb7ffa9f8",
+                "7ebe5118f7aef2e6",
+                "7d98c260873a5e2f",
+                "c65686b3544a8e64"
             ]
         ]
     },
@@ -6686,7 +6906,8 @@
         "name": "link out 23",
         "mode": "link",
         "links": [
-            "ca63470524a47ebc"
+            "ca63470524a47ebc",
+            "d4f84305dc1c8026"
         ],
         "x": 465,
         "y": 1580,
@@ -6884,16 +7105,6 @@
         ]
     },
     {
-        "id": "fa37353b7a9b8b90",
-        "type": "subflow:04daed90325fb29f",
-        "z": "2bcf33cf37fdb779",
-        "g": "357d74cfac40f059",
-        "name": "",
-        "x": 2670,
-        "y": 2260,
-        "wires": []
-    },
-    {
         "id": "d35b517f89c40b9a",
         "type": "subflow:04daed90325fb29f",
         "z": "2bcf33cf37fdb779",
@@ -6908,23 +7119,6 @@
         "x": 3050,
         "y": 2240,
         "wires": []
-    },
-    {
-        "id": "da32e21f6881ba1f",
-        "type": "link in",
-        "z": "2bcf33cf37fdb779",
-        "g": "357d74cfac40f059",
-        "name": "link in 2",
-        "links": [
-            "8cabbd811fa0bcdf"
-        ],
-        "x": 1525,
-        "y": 2620,
-        "wires": [
-            [
-                "d49abe7f688a831f"
-            ]
-        ]
     },
     {
         "id": "019d21b8c8e2b763",
@@ -6944,24 +7138,25 @@
         "wires": []
     },
     {
-        "id": "d49abe7f688a831f",
-        "type": "function",
+        "id": "58f3bd7f87f98b37",
+        "type": "ui_template",
         "z": "2bcf33cf37fdb779",
-        "g": "357d74cfac40f059",
-        "name": "function 1",
-        "func": "function inetAton(ipv4Address) {\n    // Split the IPv4 address into its four octets\n    const octets = ipv4Address.split('.');\n\n    // Validate that there are exactly four octets and they are valid numbers\n    if (octets.length !== 4 || octets.some(octet => isNaN(octet) || octet < 0 || octet > 255)) {\n        return null; // Return null for invalid IPv4 addresses, similar to SQL INET_ATON\n    }\n\n    // Convert each octet to an integer and combine them into a single 32-bit integer\n    // The formula is (first_octet * 256^3) + (second_octet * 256^2) + (third_octet * 256^1) + (fourth_octet * 256^0)\n    const ipInt = (parseInt(octets[0]) * Math.pow(256, 3)) +\n        (parseInt(octets[1]) * Math.pow(256, 2)) +\n        (parseInt(octets[2]) * Math.pow(256, 1)) +\n        (parseInt(octets[3]) * Math.pow(256, 0));\n\n    return ipInt;\n}\nmsg.payload[0][\"ipv4\"] = inetAton(msg.payload[0][\"ipv4\"]);\nreturn msg;",
-        "outputs": 1,
-        "timeout": 0,
-        "noerr": 0,
-        "initialize": "",
-        "finalize": "",
-        "libs": [],
-        "x": 1580,
-        "y": 2540,
+        "g": "1386d17436f30564",
+        "group": "2aae5d24e9d15c39",
+        "name": "link to \"ui2.0\" in \"ui\" select tools tab",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "format": "<script>\n    window.location.href = \"/dashboard\"\n</script>",
+        "storeOutMessages": true,
+        "fwdInMessages": true,
+        "resendOnRefresh": true,
+        "templateScope": "local",
+        "className": "",
+        "x": 3380,
+        "y": 2320,
         "wires": [
-            [
-                "f5492967392800cb"
-            ]
+            []
         ]
     },
     {
@@ -7760,7 +7955,10 @@
         "x": 760,
         "y": 1040,
         "wires": [
-            []
+            [
+                "08f198d18c752bdb",
+                "c52bb1bf3d6afc87"
+            ]
         ]
     },
     {
@@ -8240,7 +8438,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 180,
-        "y": 900,
+        "y": 800,
         "wires": [
             [
                 "c1dc4dbda570cd27"
@@ -8254,8 +8452,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 950,
-        "y": 940,
+        "x": 990,
+        "y": 820,
         "wires": []
     },
     {
@@ -8269,8 +8467,8 @@
         "syntax": "mustache",
         "template": "{{req.params.url}}",
         "output": "str",
-        "x": 530,
-        "y": 900,
+        "x": 430,
+        "y": 800,
         "wires": [
             [
                 "2036837a649905f8",
@@ -8289,8 +8487,8 @@
         "syntax": "mustache",
         "template": "This is the payload: {{req.params.url}} !",
         "output": "str",
-        "x": 830,
-        "y": 940,
+        "x": 870,
+        "y": 820,
         "wires": [
             [
                 "1b06a5b19025ecb4"
@@ -8310,8 +8508,8 @@
         "targetType": "msg",
         "statusVal": "",
         "statusType": "auto",
-        "x": 960,
-        "y": 980,
+        "x": 980,
+        "y": 880,
         "wires": []
     },
     {
@@ -8326,8 +8524,8 @@
                 "type": "str"
             }
         ],
-        "x": 830,
-        "y": 980,
+        "x": 790,
+        "y": 880,
         "wires": []
     },
     {
@@ -8350,8 +8548,8 @@
         "checkall": "false",
         "repair": false,
         "outputs": 2,
-        "x": 690,
-        "y": 900,
+        "x": 630,
+        "y": 800,
         "wires": [
             [
                 "2a9255580f6c2622",
@@ -8360,7 +8558,8 @@
             [
                 "61e37b7f2bd26d23",
                 "171d6ad7831bf142",
-                "bbc1c7d6e0807355"
+                "bbc1c7d6e0807355",
+                "d4a7e1567d419d36"
             ]
         ]
     },
@@ -8376,8 +8575,8 @@
         "sendError": false,
         "encoding": "none",
         "allProps": false,
-        "x": 840,
-        "y": 860,
+        "x": 880,
+        "y": 760,
         "wires": [
             [
                 "83616b5c895f9ad0"
@@ -8391,8 +8590,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 970,
-        "y": 860,
+        "x": 1010,
+        "y": 760,
         "wires": []
     },
     {
@@ -8407,8 +8606,8 @@
                 "type": "str"
             }
         ],
-        "x": 830,
-        "y": 800,
+        "x": 870,
+        "y": 700,
         "wires": []
     },
     {
@@ -8575,8 +8774,8 @@
                 "type": "str"
             }
         ],
-        "x": 650,
-        "y": 960,
+        "x": 630,
+        "y": 740,
         "wires": []
     },
     {
@@ -8746,7 +8945,7 @@
                 "type": "str"
             }
         ],
-        "x": 750,
+        "x": 690,
         "y": 1520,
         "wires": []
     },
@@ -11486,7 +11685,7 @@
         "upload": false,
         "swaggerDoc": "",
         "x": 190,
-        "y": 840,
+        "y": 740,
         "wires": [
             [
                 "c1dc4dbda570cd27"
@@ -14181,20 +14380,5 @@
                 "827bbb883f67ca9f"
             ]
         ]
-    },
-    {
-        "id": "d402c711186ed07b",
-        "type": "global-config",
-        "env": [],
-        "modules": {
-            "@flowfuse/node-red-dashboard": "1.13.0",
-            "node-red-node-mysql": "2.0.0",
-            "node-red-dashboard": "3.6.2",
-            "node-red-contrib-mdashboard": "0.1.17",
-            "node-red-node-ui-table": "0.4.3",
-            "node-red-node-ui-list": "0.3.6",
-            "@sumit_shinde_84/node-red-dashboard-2-ui-webcam": "1.0.2",
-            "node-red-contrib-image-tools": "2.1.1"
-        }
     }
 ]
